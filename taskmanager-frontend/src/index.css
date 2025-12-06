@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Futuristic Blue Grid BG */
+body {
+  background: radial-gradient(circle at 70% 50%, rgba(0, 80, 255, 0.25), #000 70%),
+              #020617;
+  color: white;
+}
+
+/* Grid effect */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image:
+    linear-gradient(#0a1a3d 1px, transparent 1px),
+    linear-gradient(90deg, #0a1a3d 1px, transparent 1px);
+  background-size: 40px 40px;
+  opacity: 0.25;
+  pointer-events: none;
+}
+
+/* Neon card effect */
+.neon-card {
+  border: 1px solid #3b82f6;
+  box-shadow: 0 0 15px #2563eb80;
+  backdrop-filter: blur(10px);
+  background: rgba(0, 0, 20, 0.5);
+}
+
+/* Inputs */
+.input-dark {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid #3b82f650;
+  color: white;
+}
+.input-dark:focus {
+  border-color: #60a5fa;
+  box-shadow: 0 0 10px #1d4ed850;
+}
+
+/* Neon button */
+.neo-btn {
+  background: rgba(0, 0, 30, 0.8);
+  border: 1px solid #3b82f6;
+  color: white;
+  transition: 0.3s ease;
+}
+.neo-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0 15px #3b82f6;
+}
