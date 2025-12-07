@@ -1,6 +1,6 @@
 # 📋 Task Manager (Gerenciador de Tarefas)
 
-Uma aplicação Fullstack moderna para gerenciamento de tarefas, desenvolvida como requisito da disciplina de **[Nome da Disciplina]**.
+Uma aplicação Fullstack moderna para gerenciamento de tarefas, desenvolvida como requisito da disciplina de **Frameworks Web 2**.
 
 O sistema permite criar, visualizar, editar e excluir tarefas de forma segura, contando com autenticação via JWT, proteção de rotas e uma interface com design futurista ("Cyberpunk").
 
