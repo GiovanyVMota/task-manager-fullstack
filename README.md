@@ -54,7 +54,7 @@ Siga os passos abaixo para rodar a aplicação na sua máquina. O sistema está 
 
 1.  Clone este repositório e entre na pasta do backend:
     ```bash
-    cd backend/taskmanager
+    cd taskmanager-backend/taskmanager
     ```
     *(Ajuste o caminho conforme a estrutura da sua pasta)*
 
@@ -68,7 +68,7 @@ Siga os passos abaixo para rodar a aplicação na sua máquina. O sistema está 
 
 1.  Abra um novo terminal e entre na pasta do frontend:
     ```bash
-    cd frontend/task-manager-frontend
+    cd taskmanager-frontend
     ```
     *(Ajuste o caminho conforme a estrutura da sua pasta)*
 
