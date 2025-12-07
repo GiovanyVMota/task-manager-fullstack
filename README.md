@@ -11,7 +11,7 @@ O sistema permite criar, visualizar, editar e excluir tarefas de forma segura, c
 * **Giovany Mota**
 * **Tallis Teixeira**
 * **Hiago Vinicius**
-* **Marcos Rezende*
+* **Marcos Rezende**
 ---
 
 ## 🚀 Links do Projeto (Deploy)
